@@ -1,0 +1,24 @@
+<ion-view ng-controller="ListCtrl">
+  	<ion-list>
+  		<br><br>
+
+ 		<center>
+ 			<div class="list list-inset">
+        		<span class="input-label"></span>
+        		latitude
+      			<input name="text" placeholder="Enter latitude" ng-model = "lati">
+      		</div>
+
+      		<span class="input-label"></span>
+      		longitude
+      		<input name="text" placeholder="Enter longitude " ng-model = "longi">
+    		
+			<br><br> 
+				<button class="button button-balanced" ng-click = "onClicked(lati,longi)">
+  				Submit
+				</button>
+
+    	</center>
+
+  	</ion-list>
+</ion-view>
